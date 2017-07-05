@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="in.singhalenterprises.singhalenterprise.ProductDetailActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="5sp"
+        android:background="#5153b4"
+        android:id="@+id/img_product_detail"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="15sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Category"
+        android:textColor="#F58321"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/text_product_category"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="5sp"
+        android:textColor="#F58321"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Tag"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/text_product_tag"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="5sp"
+        android:textColor="#F58321"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Description"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="10sp"
+        android:paddingBottom="10sp"
+        android:id="@+id/text_product_desc"/>
+</LinearLayout>
+</ScrollView>

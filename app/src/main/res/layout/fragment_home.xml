@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#5153b4"
+    android:layout_height="wrap_content"
+    tools:context="in.singhalenterprises.singhalenterprise.HomeFragment">
+
+    <ImageSwitcher
+       android:layout_width="match_parent"
+       android:layout_height="125sp"
+       android:id="@+id/image_switcher"
+       android:background="#ffffff"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/products"
+        android:background="#ffff"
+        android:textColor="#333"
+        android:layout_marginTop="3sp"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="5sp"
+        android:id="@+id/tt_home_1"
+        android:layout_below="@id/image_switcher"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:paddingLeft="2sp"
+        android:paddingRight="2sp"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginTop="2sp"
+        android:background="#7779F6"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/recycler_home_2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_items"
+        android:layout_marginTop="3sp"
+        android:id="@+id/tt_home_2"
+        android:textColor="#333"
+        android:layout_above="@id/recycler_home_2"
+        android:paddingStart="15sp"
+        android:background="#ffff"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="5sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_home_1"
+        android:background="#7779F6"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="2sp"
+        android:layout_below="@id/tt_home_1"
+        android:layout_above="@id/tt_home_2"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"/>
+
+
+</RelativeLayout>

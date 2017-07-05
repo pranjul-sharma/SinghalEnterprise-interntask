@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context="in.singhalenterprises.singhalenterprise.AboutUsFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5sp"
+    android:background="#5153b4"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/who_we_are"
+        android:textSize="30sp"
+        android:textColor="#F58321"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="16dp"
+        android:paddingStart="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:text="@string/who_we_are_details"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/client_satisfaction"
+        android:textSize="30sp"
+        android:textColor="#F58321"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="16dp"
+        android:paddingStart="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:text="@string/client_satisfaction_details"
+        android:layout_margin="16dp"/>
+</LinearLayout>
+</ScrollView>

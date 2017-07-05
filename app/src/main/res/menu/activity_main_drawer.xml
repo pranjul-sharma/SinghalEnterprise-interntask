@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/home"
+            android:id="@+id/drawer_home"
+            android:icon="@drawable/ic_home"
+
+            />
+
+        <item android:title="@string/products"
+            android:id="@+id/drawer_products"
+            android:icon="@drawable/products"/>
+
+
+        <item
+            android:title="@string/ecatalogue"
+            android:id="@+id/drawer_ecatelogue"
+            android:icon="@drawable/catalogue"/>
+        <item android:id="@+id/drawer_about_us"
+            android:title="@string/about_us"
+            android:icon="@drawable/ic_info"/>
+        <item android:title="@string/blog"
+            android:id="@+id/drawer_blog"
+            android:icon="@drawable/blog"/>
+        <item android:title="@string/contact_us"
+            android:id="@+id/drawer_contact_us"
+            android:icon="@drawable/ic_call"/>
+    </group>
+
+</menu>

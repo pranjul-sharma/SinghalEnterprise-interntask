@@ -1,0 +1,616 @@
+<resources>
+    <string name="app_name">Singhal Enterprise</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home">Home</string>
+    <string name="products">Products</string>
+    <string name="ecatalogue">E-Catalogue</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="blog">Blog</string>
+    <string name="extra_tag">Please wait while catalogue file is being processed.</string>
+
+    <!--products-->
+    <string name="office_stationary">Office Stationary</string>
+    <string name="display_board">Display Board</string>
+    <string name="training_and_musketry_store">Training and Musketry Store</string>
+    <string name="printing_Services">Printing Services</string>
+    <string name="printer_cartridges">Printer Cartridges</string>
+    <string name="paper_Shredder">Paper Shredder</string>
+    <string name="folder_and_visitor_books">Folder and Visitor Books</string>
+    <string name="search_light">Search Light</string>
+    <string name="sand_model_set">Sand Model Set</string>
+    <string name="rifle_rack">Rifle Rack</string>
+    <string name="brass_and_quarter_gaurd_item">Brass &amp; Quarter Guard Items</string>
+    <string name="momento_and_trophy">Memento &amp; Trophy</string>
+    <string name="home_items">Other Items</string>
+
+    <!--contact details-->
+    <string name="address">14/22, 1st Floor, RBC, DDA Commercial Complex, Nangal Raya, New Delhi - 110046 (Near State Bank of India)</string>
+    <string name="landline_number">	011-2852 6733 / 011-2852 6831</string>
+    <string name="mobile_number">8745078610</string>
+    <string name="whatsapp_number">9810088657</string>
+    <string name="email">info@singhalenterprises.in</string>
+    <string name="optional">Or Write Us a mail</string>
+
+    <!--email form contents-->
+    <string name="name_form">Your Name (Required)</string>
+    <string name="email_form">Your email (Required)</string>
+    <string name="subject_form">Subject</string>
+    <string name="message_form">Your Message</string>
+    <string name="send_form">send mail</string>
+
+    <!--blog details-->
+    <string name="cyber_security_charts">Cyber Security Charts</string>
+    <string name="happy_new_year">Happy New Year</string>
+    <string name="merry_chirstmas">Merry Christmas</string>
+
+    <!--About Us details-->
+    <string name="who_we_are">Who we are ???</string>
+    <string name="client_satisfaction">Client Satisfaction</string>
+
+    <string name="who_we_are_details">Established in year 1987 at New Delhi, India, we "Singhal Enterprises" are engaged in supplying a comprehensive range of Office Stationery, Targets/Training Stores, Computer Consumables and Display Boards. The offered range includes Visitor Books, Folders, Printer Cartridges and Self Ink Stamps. In addition, we have the expertise to meet the varied demands of printing of Invitation Cards, Calenders, DO Pads and Book Work for various Govt. and Civil Organizations.\n\n
+With the help of our robust infrastructure, we ensure that the different requirements of our clients are easily met within a scheduled time. This unit is managed by our team of professionals who enable us to provide high quality range of products to customers. Also, these professionals follow a quality conscious approach and are capable of providing customized solutions. Owing to this, we gain wide appreciation from our reputed clients.\n\n
+Led by our mentor Mr. Harish Kumar, we have become prominent in the domain as amongst the leading firms engaged in providing the offered goods and services to our customers. His rich experience and in-depth knowledge has helped us to achieve immense growth and success</string>
+    <string name="client_satisfaction_details">We seek to gain utmost satisfaction of our valuable clients. In order to achieve this goal, we endeavor to deliver an outstanding quality range of products at the market leading rates to our clients. Our procuring agents ensure that, we source our products from the leading vendors in the industry, who have good track record of providing quality products and meeting their commitments. Further, our expertise in the domain allows us to meet requirements of standard as well as customized products in bulk quantities. Besides, we have incorporated best practices in supply chain management into our operation to make sure that our clients receive their consignments as per delivery schedule. All these factors have helped us in garnering a valuable clientele.</string>
+
+
+    <!--details about category-->
+    <string name="details_os">Our clients can avail a quality range of Stationery Items through us at market leading prices. We do not compromise with quality of products offered, so we procure these products from our reliable and trusted vendors which satisfy our clients in aspect of quality. Our quality range of stationery items includes A4 Size Papers, Folders, Marker Pens and Office Stationeries. We also have warehouse in which we keep our products are ensure on swift delivery of products whenever needs required.</string>
+    <string name="details_db">We offer an exclusive range of Display Boards, which come in different types of sizes and designs. Our range is widely used in training departments, colleges, schools, companies and various learning institutions. This facilitates to display the excellent image, text and presentation, these are ideal communicative tools. The various types of Display Boards comprises such as Projector Screen With White board, Notice / Pin-up Boards, Preskograph Board, Lobby Information Boards With Stand.</string>
+    <string name="details_tms">We offer training Stores that include an ample range of training products used in various outdoor and indoor areas. These training products include Target Papers, Dragon Lights, Laminated Charts, Sand Model Sets and many others. The training equipment we offer are high in quality and maximum utilization in specific training areas. We are a prominent supplier of Dragon Lights used by defense forces, paramilitary forces, security agencies, police, fire fighters and other industries..</string>
+    <string name="details_pc">The comprehensive range of Printer Cartridges we offer are available at affordable prices. We source branded cartridges such as in brands like HP, Cannon, Samsung, Epson, Brother and deliver the same to clients in a timely manner. The Computer Printer Cartridges we Supply are available with a guarantee that will not harm your printe</string>
+    <string name="details_psr">A professional organization, we have earned specialization in trading and supplying an extensive range of Personal Shredders. Procured from reputed brands, these are acclaimed for outstanding attributes like optimum performance, highly efficient and longer service life. These are available in varied models that help in meeting the requirements of Offices, Educational Institutes and other such places.</string>
+    <string name="details_fvb">We deliver an intricately designed range of Folders &amp; Visitors Books to our clients. Our folders &amp; Visitors books are sourced from the trusted vendors, who manufacture these using best grade raw materials. Further, these are designed in accordance with latest trends in the market. Besides, available in several colors and with many pockets, these products have leather/Glossy finish, which provide it elegant look. Apart from these, we provide customization as per clients requirements (depends on quantity). Due to all these reasons, our Office Folders &amp; Visitors Books are in high demand in Govt. / Corporate sectors.</string>
+    <string name="details_sms">These Sand Model Set are very effective, durable and attractive set of model equipments fro training of junior commanders in war games. All these are made of unbrakable plastics in red and Blue Colours. Standard Set Of Models – for sand table exercise containing models like transport vehicle, bridges, weapons and equipments, building, formation sign, bushes and trees, tapes fro rivers, roads, etc. Our Sand Model Sets are available at most competitive price</string>
+    <string name="details_rr">Security &amp; Storage of Weapons like rifles has been a concern for ages for the fear of damage, pilferage, extremists, and now terrorism. With the evolution of sophistication of Rifles, Safeguarding &amp; proper Storage has become of prime importance especially in the recent years with a significant rise in terrorism.
+
+Profile suits for .303, 7.62mm SLR/ 5.56mm INSAS Rifles (Fixed Butt), 7.62 mm SLR, AK-47 Rifles (Fixed Butt and Side Folding Butt)/ 5.56mm INSAS Rifles (Folding Butt), AK47 Rifles (Front Folding Butt), 9 mm Carbine, Sten Gun. </string>
+    <string name="details_fallback">No information available.</string>
+
+
+    <!--product descriptions-->
+    <string name="pro_os_0">JK Copier Paper\n\n
+Type of Product : Copier Paper\n
+Paper Size : A4\n
+Paper Quality : 75 gsm\n
+No of sheets : 500\n
+Sheet Color : White</string>
+    <string name="pro_os_1">Tumbler (Pencil Container)</string>
+    <string name="pro_os_2">Copier Paper\n\n
+Type of Product : Copier Paper\n
+Sub Type : Star\n
+Paper Size : A4\n
+Paper Quality : 75 gsm\n
+No of sheets : 500</string>
+    <string name="pro_os_3_4">Pen Stand (PU)</string>
+    <string name="pro_os_5">Pen Stand (PU) with Flag\n
+Size : 42 cms c 15 cms (Approx)</string>
+    <string name="pro_os_6">We are one of the leading supplier and trader of variety of Jute Conference Folder. They made using the finest quality jute material that we purchase from our most reliable sources.</string>
+    <string name="pro_os_7">3D Raised Relief Plastic Maps with Hard Backing, Aluminum Angle Frame with Hanging Hooks\n
+India  (75 x 100 cms)\n
+World  (75 x 100 cms)\n
+Asia (70 x 100 cms)\n
+North America (70 x 100 cms)\n
+South America (70 x 100 cms)\n
+Maps of States (Size 75 x 100 cms)\n
+Haryana, Himachal Pradesh, Maharashtra, Orissa, Madhya Pradesh, Jharkhand, Kerla, Assam &amp; Eastern States, Gujrat, Andhra Pradesh, Bihar, Tamil Nadu, Karnataka, Punjab, West Bengal, Chattisgarh, Jharkhand.</string>
+    <string name="pro_os_8">Clip Board (Magnetic)\n
+Made on Order</string>
+    <string name="pro_os_9">Photo Glossy Paper\n
+Size – A4\n
+Quality – 180 gsm</string>
+    <string name="pro_os_10">Jute Folder</string>
+    <string name="pro_os_11">Jute Folder LMP-J009</string>
+    <string name="pro_os_12">Wooden Pen Stand\n
+Model HK244\n
+size : 5.5″ x 2.5″ (Approx)\n\n
+Wooden Pen Stand\n
+Model -PSTF93\n
+Size – 9″ x 3″ (Approx)</string>
+    <string name="pro_os_13">Wooden Pen – Pencil Tumbler....</string>
+
+    <string name="pro_db_0">White Board</string>
+    <string name="pro_db_1">Display Board with Stand</string>
+    <string name="pro_db_2">Notice Board with Acrylic Cover\n
+Front door covered with Aluminum framed. Acrylic sheet which can be locked with a pair of keys provided with each board.\n
+The board is backed with a soft board.\n
+Accepts Push Pins, Drawing pins etc.\n
+Available in Different colors Blue / Green / Maroon &amp; Red. (On Order)\n
+For Indoor use only.\n
+Available in standard sizes only</string>
+    <string name="pro_db_3">Lobby Stand\n
+Display Board Size 2 feet X 3 feet.</string>
+    <string name="pro_db_4">Felt Groove Board\n
+Superior use in Office,  Hotel reception area.\n
+Available in Two velvet color Red and Maroon with Golden frame and corner.\n
+Acrylic Covered Felt Grooved Board\n
+Front door covered with Aluminum golden anodized framed with Acrylic sheet which can be locked with a pair of keys provided with each board.\n
+Available in two velvet color Red and Maroon. </string>
+    <string name="pro_db_5">Notice Board</string>
+    <string name="pro_db_6">Acrylic Cover Key Boards\n
+Convenient lockable key storage system.\n
+Acrylic lockable cover.\n
+Available in different size for 20, 30, 40, 50, 100 keys.\n
+Key chains provided.</string>
+
+    <string name="pro_tms_0">Target Paper Combat Fig 11\n
+Target Tin Sheet Fig 11</string>
+    <string name="pro_tms_1">We offer Training Stores that include an ample range of training products used in various outdoor and indoor areas. These training products include Target Papers.\n\n
+Call us : 011-28526733/ 011-28526831\n
+Email : info@singhalenterprises.in</string>
+    <string name="pro_tms_2">(Size of Each Chart 75 x 100 cms)\n
+Insas Rifle 5.56 mm\n
+Insas Rifle 5.56 mm "Chal" (Set of 2)\n
+Insas LMG 5.56 mm\n
+Insas LMG 5.56 mm "Chal" (Set of 2)\n
+Rifle AK-47\n
+Rifle AK-47 "Chal" (Set of 2)\n
+Rifle 7.62 mm SLR\n
+Rfile 7.62 mm SLR "Chal"\n
+Carbine Machine 9 mm\n
+Carbine Machine 9 mm "Chal"\n
+Bayonet Fighting with 7.62 SLR\n
+Grenade – Use and Mechanism\n
+Rifle Training (Small Arms No 1)\n
+Musketry Chat (Small Arms No. 2)\n
+LMG Gun Machine Bren (SA No. 3)\n
+Pistol Chart (Small Arms No 5)\n
+(Size of Each Chart 75 x 100 cms)\n
+H.E. Bomb 2: Mortar\n
+81 mm Mortar Firing Mechanism (Action)\n
+81 mm Motrar\n
+Fuze Percussion Dana 162 MK8-M2 Functioning Mortor\n
+84 mm Rocket Lancher Chall\n
+84 mm Illuminating Round FF V-545\n
+For more detail please download Charts E-Catalouge </string>
+    <string name="pro_tms_3">Grouping Target Paper 30 x 30 cms</string>
+    <string name="pro_tms_4">Target Paper C (Rubia)</string>
+    <string name="pro_tms_5">Sand Bag Plastic\n
+Sand Bag Jute\n
+Size – 30″ x 15″ Approx</string>
+    <string name="pro_tms_6">Target Paper 300 Mtr (NRA Target)</string>
+    <string name="pro_tms_7">Target Paper 25 Mtr (RF) Pistol Target</string>
+    <string name="pro_tms_8">Security Charts (Size 75 x 100 cms)\n
+What is Security\n
+Don’t of Security\n
+Do’s of Security\n
+Example of Classified Matters\n
+How Enemy Agent / Spy Allures\n
+Example of Activities of Enemy</string>
+    <string name="pro_tms_9">Target Paper Fig 11</string>
+    <string name="pro_tms_10">Rope Manilla  (12.5 cms Circumference)\n
+Rope Jute (12.5 cms Circumference)\n\n
+
+Tug of War Rope – Length 40 Mtr (Both end leather stitched)</string>
+    <string name="pro_tms_11">Target Paper Fig 12\n
+Target Tin Sheet Fig 12</string>
+    <string name="pro_tms_12">Free Pistol 50 Mtr ISU &amp; Centre Fire Pistol  Revolver 25 Mtr (S.F.)</string>
+    <string name="pro_tms_13">Bunker Target Paper 120 x 120 cms\n
+Bunker Target Paper 40 x 40 cms\n
+Bunker Target Paper 36 x 36 cms\n
+Zeroing Target Paper 120 x 120 cms\n
+Zeroing Target Paper 30 x 30 cms\n
+ </string>
+    <string name="pro_tms_14">Air Teaching Appliances\n
+Recruit Aiming Teacher with Aiming rest\n
+Recruit Aiming Teacher (120 cms)\n
+Aiming Box Wooden Size 70 x 15 x 15 cms\n
+Aiming Bar with Sliding Air &amp; Target\n
+Marking Disc 20 cm dia / tin Disc\n
+Standing Aiming Rest Folding leg Tripod Stand\n
+Lying Aiming Rest with Rifle Bearing Arm\n
+Pointer Staff\n
+Aiming Disc/Eye Disc\n
+Wooden Dummy Rifle\n
+Wooden Dummy Rifle .303 with Iron Fitting\n
+Wooden Dummy Rifle 7.62 SLR with iron Fitting\n
+Wooden Dummy Rifle 5.56/AK-47 with Fitting\n
+Wooden Dummy Rifle without Fitting for drill (Weight 3.5 Kg Approx)</string>
+    <string name="pro_tms_15">AIM TEACHING CHARTS\n
+Size 50 x 75 cms\n
+1.   Correct and Incorrect Aiming\n
+2.   How to Hold the Arm\n
+3.   Firing Position\n
+4.   Wind Elevation and Minute Table\n
+5.   Target Analysis (Horizental Error)\n
+6.   Durust Sight Picture\n
+7.   Alignment of Sight\n
+8.  Correct and Incorrect Aiming 7.62 SLR</string>
+    <string name="pro_tms_16">Green laser Pointer – JD 301</string>
+    <string name="pro_tms_17">Target Paper 100/25 (1′ x 1′)</string>
+    <string name="pro_tms_18">Maniture Battle Practice Targets (For 25 Yards Range)
+Fig No 11 200/25 yards
+Fig No 12 200/25 yards
+Fig No 13 200/25 yards
+Fig No 11 100/25 yards
+Fig No 12 100/25 yards</string>
+    <string name="pro_tms_19">NRAI Single Bull Target</string>
+    <string name="pro_tms_20">Map Reading Charts\n
+(Size : 75 x 100 cms)\n
+Conventional Sign (Set of 4 Charts)\n
+Military Symbols (Set of 4 Charts)\n
+Grid Reference (Set of 2 charts)\n
+Complete Map Reading\n
+Prismatic Compass\n
+Conventional Sign\n
+Standard Knots\n
+Size 50 X 75 Cms\n
+Map Reading Charts (Set of 5 Charts)</string>
+    <string name="pro_tms_21">Drill Charts\n
+(Size : 75 x 100 cms)\n
+Turnout and Basic Drill Movements\n
+Turnout and Basic Drill Movements with Arms\n
+Salute with and without Arms\n
+Drill with Cane\n
+Salute with Sword (Kirch)\n
+Drill Words of Command\n
+Drill Without Arms</string>
+    <string name="pro_tms_22">
+New Field Craft Charts\n
+(Size : 55 x 90 cms)\n
+Field Fortification\n
+Unarmed Combat\n
+Wire Obstacles\n
+(Size : 50 x 75 cms)\n
+What is Field Craft\n
+Ground Observation\n
+Judging Distance\n
+Movement and Section Formation\n
+Indication and Recognition of Target\n
+Night March\n
+Field Signals</string>
+    <string name="pro_tms_23">We offer training Stores that include an ample range of training products used in various outdoor and indoor areas. These training products include Target Papers, Dragon Lights, Laminated Charts, Sand Model Sets and many others. The training equipment we offer are high in quality and maximum utilization in specific training areas. We are a prominent supplier of Dragon Lights used by defense forces, paramilitary forces, security agencies, police, fire fighters and other Organisations.\n\n
+Call us : 011-28526733/ 011-28526831\n
+Email : info@singhalenterprises.in
+</string>
+    <string name="pro_tms_24">We offer training Stores that include an ample range of training products used in various outdoor and indoor areas. These training products include Target Papers, Dragon Lights, Laminated Charts, Sand Model Sets and many others. The training equipment we offer are high in quality and maximum utilization in specific training areas.</string>
+    <string name="pro_tms_25">Ribbon and Medal Chart (Set of 2 Charts)\n
+Size : 70 x 100 cms</string>
+    <string name="pro_tms_26">Maniature Target Range 100 Mtr (25x)</string>
+    <string name="pro_tms_27">Target Paper A New</string>
+    <string name="pro_tms_28">Miniature Target Paper Fig 11  100 x  to 25 x\n
+Miniature Target Paper Fig 11  200 x  to 25 x\n
+Miniature Target Paper Fig 11  300 x  to 25 x</string>
+    <string name="pro_tms_29">Air Pistol Target Paper 10 Mtr (100 Pcs Pack)</string>
+    <string name="pro_tms_30">Case Collector for INSAS LMG 5.56 mm\n
+Case Collector for INSAS Rifle 5.56 mm\n
+Case Collector for Carbine Machine 9 mm</string>
+    <string name="pro_tms_31">Helmet</string>
+    <string name="pro_tms_32">Case Collector For AK 47</string>
+    <string name="pro_tms_33">Rilfe Sling</string>
+    <string name="pro_tms_34">Features :-\n
+Net Made of nylone rope – Black / OG.\n
+Garnish made of waterproof camouflage cloth.\n
+No glare, Rustle free.\n
+Many sizes and colour options ranging from 1 x 2 mtr to 30 x 30 mtrs.\n
+(Made on Order)</string>
+    <string name="pro_tms_35">Army Helmet</string>
+    <string name="pro_tms_38">Target Paper Fig 13</string>
+    <string name="pro_tms_39">Case Collector for Carbine Machine 9 mm\n
+Case Collector for INSAS LMG 5.56 mm\n
+Case Collector for INSAS Rifle 5.56 mm\n
+</string>
+
+    <string name="pro_ps_0">Army Prinited Forms &amp; Register\n
+Driver’s Car Diary\n
+Vehicle Log Book\n
+Ledger Sheet &amp; Ledger Cover\n
+Kilometer Cards\n
+Bin Cards\n
+Tally Cards\n
+Ration and Forage Returns Form\n
+Regimental Cash Account Book\n
+Regimental Treasure Cash Book\n
+Red Cheque &amp; Black Cheque\n
+Movement Orders\n
+Unit Vehicle Register\n
+… and many more Army forms are readily available.</string>
+    <string name="pro_ps_1">Invitation Card</string>
+    <string name="pro_ps_2">DO Pads</string>
+    <string name="pro_ps_3">File Cover Printed</string>
+    <string name="pro_ps_4">White File Cover Printed</string>
+
+    <string name="pro_pc_0">Samsung Toner Cartridge</string>
+    <string name="pro_pc_1">Brother Toner Cartridge</string>
+    <string name="pro_pc_2">Canon TOner Cartridge</string>
+    <string name="pro_pc_3">HP Toner &amp; Cartridges</string>
+
+    <string name="pro_psr_0">key Features:\n\n
+Auto Start /Stop with sensor.\n
+Shredder can be used for 2 minutes\n
+Manual reverse function in case of over load.\n
+Can Shred Credit Cards, CD’s\n
+Transparent Waste Paper basket\n
+Separate bin for paper &amp; CD Shreds\n\n\n
+TECHNICAL SPECIFICATIONS\n\n
+Model\t\t\t	CC 207 CD\n
+Feed width (mm)\t\t\t	220 mm\n
+Shred size (mm)\t\t\t	4×35\n
+Shred Capacity (70 gsm A4 sheets)\t\t\t	5-6\n
+Motor/Voltage/Power\t\t\t	230 V\n
+Speed (metres/minute)\t\t\t	2 mtrs/min\n
+Waste Volume (Litres)\t\t\t	11 Liters\n
+Weight (kgs)\t\t\t	3.5 Kg\n
+Machines Dimensions (mm) HxWxD\t\t\t	310x200x295\n
+Application\t\t\t	Paper/1CD/1Credit Cards</string>
+    <string name="pro_psr_1">Desk Side Office Shredders 1-3 Users Only\n
+key Features:\n\n
+Auto Start &amp; Stop.\n
+Separate feed entry for CDs/Credit Cards-Twin cutting system for paper/CD\'s &amp; credit cards and separate 2 bins for shredded material\n
+Thermal overheat cut off for Motor.\n
+Can shred 60/70 sheets of paper within 2/3 minutes\n
+Machine can be used for 2 minutes.\n\n\n
+
+TECHNICAL SPECIFICATIONS\n\n
+Model\t\t\t	CC 232 CD\n
+Feed width (mm)\t\t\t	225 mm\n
+Shred size (mm)\t\t\t	5×38\n
+Shred Capacity (70 gsm A4 sheets)\t\t\t	12\n
+Motor/Voltage/Power\t\t\t	230 V\n
+Speed (metres/minute)	–\n
+Waste Volume (Litres)\t\t\t	18 Liters\n
+Weight (kgs)\t\t\t	5.8 Kg\n
+Machines Dimensions (mm) HxWxD\t\t\t	421x200x386\n
+Application\t\t\t	Paper/CD/Credit Card</string>
+    <string name="pro_psr_2">Desk Side Office Shredders 1-3 Users Only\n
+key Features:\n\n
+Auto Start &amp; Stop.\n
+Separate feed entry for CDs/Credit Cards-Twin cutting system for paper/CD\'s &amp; credit cards and separate 2 bins for shredded material\n
+Thermal overheat cut off for Motor.\n
+Can shred 60/70 sheets of paper within 2/3 minutes\n
+ \n\n
+TECHNICAL SPECIFICATIONS\n\n
+Model\t\t\t	CC 231 CD\n
+Feed Width\t\t\t	225 mm\n
+Shred Size\t\t\t	4×38 mm\n
+Shred Capacity (A4 size 70 gsm paper)\t\t\t	10\n
+Motor/Voltage/Power\t\t\t	230 V\n
+Speed (m/minute)\t\t\t	–\n
+Waste Volume (Liters)\t\t\t	2.3\n
+Weight (Kg)\t\t\t	16 Kg\n
+Machine Dimensions HxWxD (mm)\t\t\t	412x190x322 mm\n
+Application\t\t\t	Paper/CD/Credit Card</string>
+    <string name="pro_psr_3">not available.</string>
+
+    <string name="pro_fvb_0">Auto Clip Folder VIP\n
+Size : 10″ x 14″ (Approx)\n
+Colour : Cherry</string>
+    <string name="pro_fvb_1">Visitors Book\n\n
+Size – 14.5″ x 10.5″ (Approx)\n
+No. of Sheets – 50 Sheets\n
+Printed on 300 GSM Cards.</string>
+    <string name="pro_fvb_2">Digest of Service</string>
+    <string name="pro_fvb_3">not available</string>
+    <string name="pro_fvb_4">Visitors Book\n\n
+Size : 14.5″ x 10.5″ (Approx)\n
+No. of Sheet – 50 Sheets\n
+Printed on 300 GSM Card</string>
+    <string name="pro_fvb_5">Slip Pad Cover (VIP)\n
+Size – 8″ x 6″ (Approx)\n
+Colour – Cherry\n
+Made on Order</string>
+    <string name="pro_fvb_6">Eves Visitor Book\n\n
+Size : 14.5″ x 10.5″ (Approx)\n
+No. of Sheet – 50 Sheets\n
+Printed on 300 GSM Card</string>
+    <string name="pro_fvb_7">Army Dak Folder (Rexine)\n\n
+Size – 10.5″ x 14.5″ (Approx)\n
+Available in Blue, Red, Green &amp; Cherry Colour.</string>
+    <string name="pro_fvb_8">Army Dak Folder (VIP)\n\n
+Size – 11″ x 15″ (Approx)\n
+Colour – Cherry</string>
+    <string name="pro_fvb_9">Service Document Folder (Army)\n
+Made on Order</string>
+    <string name="pro_fvb_10">Executive Leather Folder\n\n
+Size : 9.25″ x 11″ (Approx)\n
+Colour : Red\n\n
+Extra storage pocket and pen holder (pen not included)\n
+Smooth leather finish, soft rich texture\n
+Made of Order\n
+(The images represent actual product through colour of the image and product may slightly differs)</string>
+    <string name="pro_fvb_11">Slip Pad Cover\n\n
+        SKU : SP96LS\n
+Size : 9″ X 6″\n
+Colour : Black</string>
+    <string name="pro_fvb_12">Visitors Book\n\n
+Size – 14.5″ x 10.5″ (Approx)\n
+No. of Sheets – 50 Sheets\n
+Printed on 300 GSM Cards.</string>
+
+    <string name="pro_sl_0">Silent Features :-\n\n
+1. 160 mm dia x 250 mm length fitted with specially designed deep parabola reflector having 50/55 watt, 12 volt halogen lamp, 12 volt -7 AH rechargeable maintenance free battery.\n
+2. Micro controller based HHSL\n
+3. Suitable for 35 w/ 55 w Halogen Lamp.\n
+4. Operating range of about 1000 mtr (i.e. 1 KM)\n
+5. Bean distance of 350 mtr. So as to detect group of persons.\n
+6. Shock resistance front glass.\n
+7.  SMPS inbuilt charger working on from 90 v to 270 v.\n
+8. Membrance switches (Gold plated tracks with minimum life of 1 million operations) back lit with distinct colour LEDs\n
+9. Special Dimming feature for INDOoRS user.\n
+10. Auto Flashing feature with variable ON/ OFF time.\n
+11. Advance low battery status indicator is also provided.\n
+12. DC blown fuse indicator is provided on the panel\n
+13. Timer and continuous mode.</string>
+    <string name="pro_sl_1">LED Hand Held Search Light\n\n
+LED                                 \t\t                                                – 10 W\n
+Colour Temperature                  \t\t                             – 5500/7000K\n
+Range                                   \t\t                                          – 800 Mtr\n
+Running Time                                \t\t                            – >5 Hrs.\n
+Working Voltage                                 \t\t                      – DC 12V\n
+Power Adopter – Input Voltage                      \t\t     – AC 110-240V\n
+Power Adopter – Output Voltage &amp; Current \t\t  – 15V/1.5Ah\n
+Body Material                                    \t\t                          – A.B.S.\n
+Front Glass                                          \t\t                         – Toughened\n
+Fixture Dimension(L/H/D)                                 \t\t  –  265/200/160 mm (Approx.)\n
+Weight                                                       \t\t                     – 3.5 Kg (Approx.)\n
+IP Rating                                                        \t\t               – I.P. -65\n
+Battery Rating Capacity                                \t\t          – 12V/7 Ah\n
+Battery Type                                               \t\t                  – Lead Acid Maintenance Free\n\n
+ADVANTAGES :\n\n
+Low energy consumption, save 70% power comparing with traditional lights.\n
+No UV or (R (Infra-red) radiation, no mercury or lead, eco -friendly.\n
+Instant start, no speckle, no flickering.\n
+Solid state, hight shock/vibration-resistant and water resistant.</string>
+    <string name="pro_sl_2">LED Search Light (Model : YK-1010)\n\n
+Specification :\n
+\tOperating Temp. -10 deg C to + 55 deg C\n
+\tInput AC Charging : AC 220V 50 Hz\n
+\tOutput Power : 10 W\n
+\tOperation Time : Up to 3.5 – 5 hrs on Lead-acid Battery\n
+\tREchargeable Battery : SMF Lead Acid\n
+\tBattery Recharge Time : 12 hrs Approx.\n
+\tLED Lamp : CEEE T6 10 W\n\n
+OPERATION INSTRUCTIONS :\n\n
+\tCharge for approx 8 to 10 hrs before use.\n
+\tStep Operation Switch\n
+  \t   – Strong Beam\n
+    \t – Super Strong Beam\n
+    \t – Falsher\n
+\tRecharge when beam gets dim</string>
+    <string name="pro_sl_3">not available</string>
+
+    <string name="pro_sms_0">These Sand Model Set are very effective, durable and attractive set of model equipments for training of junior commanders in war games. All these are made of unbreakable plastics in Red and Blue Colours. Standard Set of Models – for sand table exercise containing models like transport vehicle, bridges, weapons and equipments, building, formation sign, bushes and trees, tapes for rivers, roads, etc. Our Sand Model Sets are available at most competitive price.
+SAND MODEL SET ITEMS DETAIL (APPROX)\n
+\tHOUSE                   \t\t     20\n
+\tTANK                \t\t           06\n
+\tFIELD GUN       \t\t        06\n
+\tRCL                            \t\t   06\n
+\tBRIDGE                     \t\t  06\n
+\tTENT                   \t\t         06\n
+\tARROW              \t\t         06\n
+\tPOLE           \t\t                 06\n
+\tTRENCH     \t\t                08\n
+\t3 TON  \t\t                         06\n
+\tJEEP                     \t\t        06\n
+\tMORTAR                \t\t     06\n
+\tWATER TANK        \t\t   04\n
+\tAEROPLANE     \t\t         04\n
+\tTEMPLE    \t\t                   04\n
+\tMOSQUE                     \t\t 02\n
+\tHELIPAD                \t\t     02\n
+\tFACTORY            \t\t        02\n
+\tAMBULANCE      \t\t       02\n
+\tLMG SIGN                   \t\t08\n
+\tMMG SIGN               \t\t   08\n
+\tWEAPON SIGN        \t\t 28\n
+\tHALMA MEN      \t\t        24\n
+\tDIV/BN/CO               \t\t  24\n
+\tGRID PLATE          \t\t     06\n
+\tDIRECTION BOARD \t\t 06\n
+\tSIGN BOARD         \t\t      04\n
+\tTREE &amp; BUSHES  \t\t     100</string>
+    <string name="pro_sms_1">Sand Model Acrylic items (Communication Tower)\n\n
+Size : 4″ x 4″ x 9″ (Height) Approx\n
+ (Made on orders)</string>
+    <string name="pro_sms_2">Sand Model Set Acrylic Items
+ACRYLIC  ITEMS (Village Name, Grid No Plate, Scale Plate, River Name Arrow, Direction Arrow,  North Arrow Plate, Arrow Axis, Red Land Plate &amp; Blue Land Plate)  MADE ON ORDER.
+RATES ARE AS PER ITEMS SPECIFICATION</string>
+    <string name="pro_sms_3">Sand Model Set</string>
+    <string name="pro_sms_4">Sand Model Set</string>
+    <string name="pro_sms_5">Sand Model Item (Village Name Plate)\n
+Size : 12″ x 2″ (Approx)\n
+Made on Order</string>
+    <string name="pro_sms_6">Sand Model Grid Plate\n
+Size – 2″ x 2″ x 2″ (Approx)\n
+Made on order</string>
+    <string name="pro_sms_7">Sand Model (Plastic Item) Mobile Tower</string>
+    <string name="pro_bqp_0">Quarter Guard Mirror Size : 120 x 45 ems mounted on 3.5 cms brass pipe with collapsible stand (w/o mirror).</string>
+    <string name="pro_bqp_1">Quarter Guard Bell Stand (Folding Tripod Stand) 150 cm long 3.5 cms dia brass pipe with brass top domb, hook and chain (stand only)</string>
+    <string name="pro_bqp_2">Notice Board for Quarter Guard</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="pro_hc_0">Perfume Dispenser is a fully automatic light sensor enabled air freshening machine which sprays luxury perfume fragrance automatically at pre-determined time intervals. Different type of fragrances are available.\n\n
+Material : ABS Plastic\n
+Battery : 2×1.5V”D”\n
+Adjustable Time : 5-30min\n
+Effective Area : 30 sq. mtr.</string>
+    <string name="pro_hc_1">Rilfe Sling</string>
+    <string name="pro_hc_2">Automatic Shoe Shine Machine\n
+Automatic shoe shiner machines operate with infrared sensors and can detect presence of a shoe in the slot. When the sensor gets activated, a soft brush of high quality fiber starts rotating and cleans the shoe within seconds.\n\n
+\t\tUNIT SIZE : 14”Lx8”Bx11.5”H (Approx)\n
+\t\tMATERIAL : Black wooden finish\n
+\t\tBRUSHES : 1 Black and 1 Brown\n
+\t\tPOWER : 40W (220V AC)\n
+\t\tAUTO CUT : 15 Sec.</string>
+    <string name="pro_hc_3">Spiral Binding Machine</string>
+    <string name="pro_hc_4">Supreme Ornate Chair\n
+\t\tColour  : Black / Red \n
+\t\tRosewood Brown\n
+\t\tDimensions  : Total Height 815  mm\n
+\t\tTotal Width : 560 mm\n
+\t\tTotal Depth : 560 mm </string>
+    <string name="pro_hc_5">OVERVIEW\n
+\tUsing the wrong extinguisher on a fire can be very dangerous. And often, there isn\'t enough time to decide which extinguisher to use. In such cases, the consequences often prove fatal.\n
+\tCeasefire\'s MAP 90 range of ABC extinguishers are effective against Class A, B and C fires as well as Electrical fires. They take the guesswork and confusion out of choosing an extinguisher and save valuable time in the face of the fatally dangerous enemy called fire.\n
+\tCeasefire\'s ABC extinguishers are built for speed, power and reliability. A simple two-step activation mechanism allows you to fight the fire within seconds. 90% concentration of Mono Ammonium Phosphate maximizes the fire fighting power available to you. And stringent quality control and multiple point testing systems ensure that when you are faced with a fire, these extinguishers will deliver.</string>
+    <string name="pro_hc_6">AHUJA PA LECTURN SYSTEM WITH INBUILT SPEAKERS, AMPLIFIER, CORDLESS MIC, PODIUM MIC, USB PORT WSL2500R\n
+\t1.Compact, versatile and easy-to-assemble wireless Lectern Amplifier with built in 40W amplifier. Contains a built-in speaker system consisting of 3 Nos. 6.5″ (165mm) coated dual cone speakers. Provision given for connecting external speaker, if required.\n
+\t2.Supplied with a detachable gooseneck condenser microphone and a reading light for the podium top.Contains a built in VHF wireless microphone diversity receiver. High quality VHF handheld wireless microphone supplied. (Available in four different frequencies).\n
+\t3.Provision for connecting a wired microphone through a 6.3mm phone jack or a line source through an XLR connector.Built in digital recorder cum MP3 player, which can record on USB pen drives or SD cards.\n
+\t4.Facility for connecting a stereo auxiliary source through L&amp;R RCA plug. It accepts four different sensitivities of auxiliary signal which are selectable through a slide switch.Seperate output connectors for LINE OUT &amp; REC OUT through mini male XLR &amp; 6.3mm phone socket respectively, allowing the lectern system to be connected to external amplifiers for further amplification, if required.\n
+\t5.Handheld wireless microphone &amp; gooseneck podium microphone have voice priority over all other inputs. This feature can be switched ON or OFF through a slide switch.Tonal adjustment can be done through cut-boost type Bass &amp; Treble controls.Rugged &amp; stable floor standing base. Can be fixed to the floor with brackets (provided), if required.Operates on 240V 50Hz mains supply.</string>
+    <string name="pro_hc_7">Brass Planter</string>
+    <string name="pro_hc_8">Features :-\n
+Net Made of nylone rope – Black / OG.\n
+Garnish made of waterproof camouflage cloth.\n
+No glare, Rustle free. \n
+Many sizes and colour options ranging from 1 x 2 mtr to 30 x 30 mtrs.\n
+(Made on Order)</string>
+    <string name="pro_hc_9">Comb Binding Machine – 12 Inch – 21 Holes (Oddy)\n
+Cuts 15 Sheets of 70 GSM per time.\n
+High Quality Steel Cutters.\n
+Heavy Duty, Rugged &amp; Comfort size.\n
+21 Holes Punch Slot.</string>
+    <string name="pro_hc_10"></string>
+    <string name="pro_hc_11">Compass – 9075\n
+Dimension : 3″ x 2.2″ x 1.2″\n
+Weight : 1.5 oz or 42.5 Grams\n
+High Impact Plastic Body\n
+Lensatic Sighting</string>
+    <string name="pro_hc_12">Dual PA Wireless Microphone AWM-490VHL\n
+Compact, lightweight, Dual Channel VHF Wireless Microphone System available in 5 different frequencies. Operates at Quartz Crystal Locked VHF High Band frequency. Two microphones with separate frequencies and one non-diversity receiver.\n
+Combination of a hand-held dynamic microphone &amp; a tie-clip condenser microphone for a wide variety of applications. Internal Antenna in the Microphone and two telescopic Antennas in the Receiver for clear and distortion free reception.\n
+Receiver operates on 9V DC through an AC Adaptor supplied along with the system. Microphone operates with a 9V Dry Battery.\n
+Microphone with 3-position slide switch for ‘Audio On’ – ‘Audio Mute’ – ‘Off’ positions.\n
+Green LEDs for Channel-1 &amp; Channel-2 signal indication on receiver.Audio output from receiver available at OUT 1 &amp; OUT 2 individually and as mixed output at OUT 1 + 2.</string>
+    <string name="pro_hc_13">Electric Siren\n
+Range from 0.8 KM to 4 KM</string>
+    <string name="pro_hc_14">Hand Operated Siren</string>
+    <string name="pro_hc_15">Model UEDT\n
+Cutter Type  –3 Teeth Blade of Nylon Line\n
+Overall Length* (mm) – 1928\n
+Cutter Dia (mm) – 256 (3 Teeth Blade) 440 (Nylon)\n
+Operating Weight (kg) – 8.6 (3 Teeth Blade), 8.41 (Nylon)\n\n
+Engine\n
+Engine Type 4 Stroke OHV Engine\n
+Displacement – 35.8 cc\n
+Maximum Horse Power – 0.63 Litre\n
+Compression ratio – 0.63 Litre\n
+ </string>
+    <string name="pro_hc_16">Suitable for both HOT / COLD Lamination\n
+High Quality, New design  Laminating Machine\n
+4 Rollers for Better finishing &amp; efficiency\n
+Suitable for all sizes upto 305mm (width) / A3\n
+Forward &amp; Backward Mechanism\n
+Faster speed in its class of machines\n
+Time saving &amp; simple to use            \n
+Ideal for Corporates, Job workers, Offices &amp; Institutions …</string>
+    <string name="pro_hc_17">Lamy Pens</string>
+    <string name="pro_hc_18">Swiss Military LED Torch (TOR-2)</string>
+    <string name="pro_hc_19">AHUJA PA Megaphone (AM-21SM)\n
+20 Watt  — Shoulder Sling Type\n
+Dry Cell &amp; 12V Car Battery Operation.\n
+All ABS Body, Sturdy yet light weight.\n
+Built-in Siren\n
+Clear Sound, long range &amp; efficient design.\\n
+Microphone with Volume Control &amp; Press-to-Talk Switch</string>
+
+
+</resources>
