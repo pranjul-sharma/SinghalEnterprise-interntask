@@ -50,7 +50,7 @@ public class ContactFragment extends Fragment {
                     String message=editMessage.getText().toString();
 
                     Intent intent=new Intent(Intent.ACTION_SENDTO);
-                    intent.setData(Uri.parse("mailto:handsomeboypranjul@gmail.com"));
+                    intent.setData(Uri.parse("mailto:info@singhalenterprises.in"));
                     intent.putExtra(Intent.EXTRA_SUBJECT,subject+" mail from "+name);
                     intent.putExtra(Intent.EXTRA_TEXT,message);
 
