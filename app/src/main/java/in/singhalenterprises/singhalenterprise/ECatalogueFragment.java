@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -30,7 +31,7 @@ public class ECatalogueFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_ecatalogue, container, false);
-        recyclerView=(RecyclerView)view.findViewById(R.id.recycler_ecatalogue);
+        recyclerView=view.findViewById(R.id.recycler_ecatalogue);
         recyclerView.setAdapter(new MyCardAdapter(getContext(),drawables,names,4,99));
         recyclerView.setLayoutManager(new GridLayoutManager(getContext(),2));
         return view;

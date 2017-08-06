@@ -14,6 +14,7 @@ import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 import android.widget.ViewSwitcher;
 
+
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -37,9 +38,9 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_home, container, false);
-        switcher=(ImageSwitcher)view.findViewById(R.id.image_switcher);
-        recyclerView1=(RecyclerView)view.findViewById(R.id.recycler_home_1);
-        recyclerView2=(RecyclerView)view.findViewById(R.id.recycler_home_2);
+        switcher=view.findViewById(R.id.image_switcher);
+        recyclerView1=view.findViewById(R.id.recycler_home_1);
+        recyclerView2=view.findViewById(R.id.recycler_home_2);
         int[] temp=new int[13];
         String[] temp1=new String[13];
         for (int i=0;i<13;i++){
@@ -60,7 +61,7 @@ public class HomeFragment extends Fragment {
         switcher.setInAnimation(in);
         switcher.setOutAnimation(out);
 
-        recyclerView1.setAdapter(new MyCardAdapter(getContext(),temp,temp1,0,99));
+        recyclerView1.setAdapter(new MyCardAdapter(getContext(), temp,temp1,0,99));
         recyclerView1.setLayoutManager(new GridLayoutManager(getContext(),2));
 
         recyclerView2.setAdapter(new MyCardAdapter(getContext(),ProductsContract.drawablesProducts[12],ProductsContract.namesProducts[12],5,12));

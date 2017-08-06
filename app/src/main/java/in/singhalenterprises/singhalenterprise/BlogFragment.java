@@ -28,7 +28,7 @@ public class BlogFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view =inflater.inflate(R.layout.fragment_blog, container, false);
-        recyclerView=(RecyclerView)view.findViewById(R.id.recycler_blog);
+        recyclerView=view.findViewById(R.id.recycler_blog);
         recyclerView.setAdapter(new MyCardAdapter(getContext(),drawables,names,2,99));//99 is extra value and is not needed here , but as in its constructor, it is required only in case of product category
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false));
         return view;

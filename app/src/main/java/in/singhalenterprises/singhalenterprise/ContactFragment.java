@@ -31,10 +31,10 @@ public class ContactFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_contact, container, false);
-        editName =(EditText)view.findViewById(R.id.edit_name_form);
-        editSubject=(EditText)view.findViewById(R.id.edit_subject_form);
-        editMessage=(EditText)view.findViewById(R.id.edit_message_form);
-        buttonSend=(Button)view.findViewById(R.id.button_send_form);
+        editName =view.findViewById(R.id.edit_name_form);
+        editSubject=view.findViewById(R.id.edit_subject_form);
+        editMessage=view.findViewById(R.id.edit_message_form);
+        buttonSend=view.findViewById(R.id.button_send_form);
 
         buttonSend.setOnClickListener(new View.OnClickListener() {
             @Override
