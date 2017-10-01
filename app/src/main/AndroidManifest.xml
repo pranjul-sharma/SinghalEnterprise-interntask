@@ -25,7 +25,8 @@
         </activity>
         <activity android:name=".BlogActivity"/>
         <activity android:name=".ProductDetailActivity" />
-        <activity android:name=".ProductListActivity" />
+        <activity android:name=".ProductListActivity"/>
+
     </application>
 
 </manifest>

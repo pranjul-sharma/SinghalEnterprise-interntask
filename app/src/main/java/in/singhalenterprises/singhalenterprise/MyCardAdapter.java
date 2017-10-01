@@ -9,11 +9,14 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
-import com.facebook.drawee.view.DraweeView;
+
+import com.bumptech.glide.Glide;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 class MyCardAdapter extends RecyclerView.Adapter<MyViewHolder> {
@@ -25,7 +28,7 @@ class MyCardAdapter extends RecyclerView.Adapter<MyViewHolder> {
     private String[] ids={"home","products","blog","product list","ecatalogue","home_1"};
     private int id;
     protected View view;
-
+    static int count = 1;
 
     MyCardAdapter (Context context,int[] drawables,String[] names,int id,int i){
         this.context=context;
@@ -48,9 +51,9 @@ class MyCardAdapter extends RecyclerView.Adapter<MyViewHolder> {
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
-
         holder.iv.setImageBitmap(decodeSampledBitmapFromResource(context.getResources(),drawables[position],100,100));
-
+       // Glide.with(context).load(drawables[position]).into(holder.iv);
+        //holder.iv.setImageResource(drawables[position]);
         holder.tv.setText(names[position]);
         final int pos=position;
 
@@ -173,6 +176,7 @@ class MyCardAdapter extends RecyclerView.Adapter<MyViewHolder> {
         final int height = options.outHeight;
         final int width = options.outWidth;
         int inSampleSize = 1;
+        Log.v("DOWNSAMPLING "+count,"height :"+height+" width :"+width+" reqh :"+reqHeight+" reqW :"+reqWidth);
 
         if (height > reqHeight || width > reqWidth) {
 
@@ -186,6 +190,7 @@ class MyCardAdapter extends RecyclerView.Adapter<MyViewHolder> {
                 inSampleSize *= 2;
             }
         }
+        Log.v("DOWNSAMPLED "+count,"height :"+height+" width :"+width+" reqh :"+reqHeight+" reqW :"+reqWidth+" insamplesize :"+inSampleSize);
 
         return inSampleSize;
     }
@@ -203,6 +208,9 @@ class MyCardAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
         // Decode bitmap with inSampleSize set
         options.inJustDecodeBounds = false;
+
+        Log.v("DECODE"+count+" "+resId,"decoding ");
+        count++;
         return BitmapFactory.decodeResource(res, resId, options);
     }
 
